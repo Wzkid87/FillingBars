@@ -20,12 +20,14 @@ $('#buyFiller').on('click',function() {
   fillers++;
   curr2-=fillerCost;
   fillerCost++;
+  document.getElementById('buyFiller').text("Buy an Auto Filler - " + fillerCost);
 });
 
 $('#buyIncr').on('click',function() {
   incr++;
   curr2-=incrCost;
   incrCost++;
+  document.getElementById('buyIncr').text("Improve Clicker - " + incrCost);
 });
 
 window.setInterval(function() {
