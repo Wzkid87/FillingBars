@@ -23,11 +23,9 @@ $('#fill').on('click', function () {
   };
   
   updateBars = function() {
-    $('#firstBar').value=curr1;
-    $('#secondBar').value=curr2;
-    $('#thirdBar').value=curr3;
-    $('#fourthBar').value=curr4;
-    $('#fifthBar').value=curr5;
+    $('#firstBar').value(curr1);
+    $('#secondBar').valu(curr2);
+    $('#thirdBar').value(curr3);
+    $('#fourthBar').value(curr4);
+    $('#fifthBar').value(curr5);
     };
-
-  
