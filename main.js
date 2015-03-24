@@ -20,10 +20,10 @@ $('#fill').on('click', function () {
     curr5 += 1;
     curr4 = 0;};
     
-    $('#firstBar').value(curr1);
-    $('#secondBar').value(curr2);
-    $('#thirdBar').value(curr3);
-    $('#fourthBar').value(curr4);
-    $('#fifthBar').value(curr5);
+    $('#firstBar').value=curr1;
+    $('#secondBar').value=curr2;
+    $('#thirdBar').value=curr3;
+    $('#fourthBar').value=curr4;
+    $('#fifthBar').value=curr5;
   });
   
