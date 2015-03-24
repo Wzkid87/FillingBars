@@ -10,7 +10,7 @@ var bar1 = document.getElementById('firstBar');
 var bar2 = document.getElementById('secondBar');
 var bar3 = document.getElementById('thirdBar');
 var bar4 = document.getElementById('fourthBar');
-var bar5 = document.getElementById('fifthbar');
+var bar5 = document.getElementById('fifthBar');
 
 $('#fill').on('click', function () {
   curr1 = curr1 + incr;
@@ -50,5 +50,5 @@ window.setInterval(function() {
     bar3.value = curr3;
     bar4.value = curr4;
     bar5.value = curr5;
-  },10);
+  },100);
   
