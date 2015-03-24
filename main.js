@@ -5,6 +5,12 @@ var curr4 = 0;
 var curr5 = 0;
 var incr = 1;
 
+var bar1 = document.getElementById('firstBar');
+var bar2 = document.getElementById('secondBar');
+var bar3 = document.getElementById('thirdBar');
+var bar4 = document.getElementById('fourthBar');
+var bar5 = document.getElementById('fifthbar');
+
 $('#fill').on('click', function () {
   curr1 = curr1 + incr;
   if (curr1 == 10) {
@@ -20,10 +26,10 @@ $('#fill').on('click', function () {
     curr5 += 1;
     curr4 = 0;};
     
-    $('#firstBar').value=curr1;
-    $('#secondBar').value=curr2;
-    $('#thirdBar').value=curr3;
-    $('#fourthBar').value=curr4;
-    $('#fifthBar').value=curr5;
+    bar1.value = curr1;
+    bar2.value = curr2;
+    bar3.value = curr3;
+    bar4.value = curr4;
+    bar5.value = curr5;
   });
   
