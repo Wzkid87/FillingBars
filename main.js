@@ -31,13 +31,13 @@ $('#buyIncr').on('click',function() {
 });
 
 window.setInterval(function() {
-  curr1+=fillers/10;
+  curr1+=fillers/100;
   if (curr1 > 7) {
     curr2 += Math.floor(curr1/7);
     curr1 = curr1 % 7;};
-  if (curr2 == 49) {
-    curr3 += 1;
-    curr2 = 0;};
+  if (curr2 > 49) {
+    curr3 += Math.floor(curr2/49);
+    curr2 = curr2 % 49;};
   if (curr3 == 343) {
     curr4 += 1;
     curr3 = 0;};
