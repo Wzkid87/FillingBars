@@ -34,7 +34,7 @@ window.setInterval(function() {
   curr1+=fillers;
   if (curr1 >= 7) {
     curr2 += 1;
-    curr1 = 0;};
+    curr1 -= 7;};
   if (curr2 == 49) {
     curr3 += 1;
     curr2 = 0;};
