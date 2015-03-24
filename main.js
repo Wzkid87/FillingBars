@@ -20,7 +20,7 @@ $('#fill').on('click', function () {
     curr5 += 1;
     curr4 = 0;};
   updateBars();
-  };
+  });
   
   updateBars = function() {
     $('#firstBar').value(curr1);
