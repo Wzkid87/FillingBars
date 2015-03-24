@@ -14,7 +14,7 @@ var bar5 = document.getElementById('fifthbar');
 
 $('#fill').on('click', function () {
   curr1 = curr1 + incr;
-};
+});
 
 $('#buyFiller').on('click',function() {
   fillers++;
