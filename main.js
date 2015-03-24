@@ -19,13 +19,11 @@ $('#fill').on('click', function () {
   if (curr4 == 10000) {
     curr5 += 1;
     curr4 = 0;};
-  updateBars();
-  });
-  
-  updateBars = function() {
+    
     $('#firstBar').value(curr1);
     $('#secondBar').value(curr2);
     $('#thirdBar').value(curr3);
     $('#fourthBar').value(curr4);
     $('#fifthBar').value(curr5);
-    };
+  });
+  
