@@ -6,6 +6,9 @@ var curr5 = 0;
 var incr = 1;
 var fillers = 0;
 
+var fillerCost = 1;
+var incrCost = 1;
+
 var bar1 = document.getElementById('firstBar');
 var bar2 = document.getElementById('secondBar');
 var bar3 = document.getElementById('thirdBar');
